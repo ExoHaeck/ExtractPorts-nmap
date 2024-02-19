@@ -13,6 +13,9 @@ Este script de bash permite extraer los números de puerto de una captura grepea
 #Clonar repositorio
 git clone https://github.com/ExoHaeck/ExtractPorts-nmap.git
 
+#La script hace uso de xclip
+sudo apt-get install xclip
+
 # Da permisos de ejecución
 chmod +x ExtractPorts.sh
 
