@@ -14,10 +14,10 @@ Este script de bash permite extraer los números de puerto de una captura grepea
 git clone https://github.com/ExoHaeck/ExtractPorts-nmap.git
 
 # Da permisos de ejecución
-chmod +x ExtracPorts.sh
+chmod +x ExtractPorts.sh
 
 # Mueve el script de bash a /usr/bin para tenerlo de forma absoluta
-sudo mv ExtracPorts.sh /usr/bin
+sudo mv ExtractPorts.sh /usr/bin
 
 #Uso del script
 ExtractPorts.sh <Captura Grepeable de Nmap>
